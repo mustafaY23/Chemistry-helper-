@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/molebc"
+    >
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preparation Calculator"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+    <EditText
+        android:id="@+id/volumeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter volume of solution (L)"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/molarityInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter desired molarity (M)"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/molarMassInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter molar mass of solute (g/mol)"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_gravity="center_horizontal"
+        android:background="#49E6D6"
+        android:padding="8dp"
+        android:shadowColor="#A1A0A0"
+        android:textColor="#FFFDFD"
+        android:textColorLink="#49E6D6"
+        android:textSize="20sp"/>
+
+
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <ListView
+        android:id="@+id/listHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

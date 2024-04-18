@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/molebc"
+    >
+
+
+    <TextView
+        android:id="@+id/ChemistryHelperforGrade10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Chemistry Helper for Grade 10"
+        android:textColor="@color/design_default_color_secondary"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        android:shadowRadius="10"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@color/black"/>
+
+    <Button
+        android:id="@+id/MoleCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="#49E6D6"
+        android:shadowColor="#A1A0A0"
+        android:text="Mole Calculator"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#49E6D6"
+        android:textSize="30sp"
+        app:rippleColor="#0E0E0E"
+        app:strokeColor="#151515" />
+
+
+    <Button
+        android:id="@+id/PeriodicTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#49E6D6"
+        android:shadowColor="#A1A0A0"
+        android:text="Periodic Table"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#49E6D6"
+        android:textSize="30sp"
+        app:rippleColor="#0E0E0E"
+        app:strokeColor="#151515" />
+
+    <Button
+        android:id="@+id/PreparationCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#49E6D6"
+        android:shadowColor="#A1A0A0"
+        android:text="Preparation Calculator"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#49E6D6"
+        android:textSize="30sp"
+        app:rippleColor="#0E0E0E"
+        app:strokeColor="#151515" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
